@@ -52,33 +52,18 @@ L = (Qx - Px, Qy - Py, Qz - Pz)
 
 ## Escenario de ejemplo
 
-Para un conductor que une los puntos:
+-Escenario 1
+<img width="907" height="165" alt="image" src="https://github.com/user-attachments/assets/09284a4d-d0a7-45f8-95c0-84f36161ef7f" />
 
-P = (-7, 4, 5)  
-Q = (8, 0, -4)
+-Escenario 2
 
-y una corriente eléctrica:
+<img width="898" height="186" alt="image" src="https://github.com/user-attachments/assets/04c394f0-1c39-42d4-a43b-75f897ecd1e9" />
 
-I = 20 A
-
-Primero se calcula el vector longitud:
-
-L = Q - P
-
-L = (8 - (-7), 0 - 4, -4 - 5)
-
-L = (15, -4, -9)
-
-Luego se utiliza la fórmula de la fuerza magnética:
-
-F = I(L × B)
 
 ## Tecnologías utilizadas
 
 - Lenguaje de programación utilizado en el proyecto
-- Editor o IDE de desarrollo
-- Conceptos de álgebra vectorial
-- Conceptos básicos de electricidad y magnetismo
+-Python
 
 ## Funcionalidades
 
@@ -97,24 +82,9 @@ producto-vectorial/
 │   └── main
 │
 ├── README.md
-└── ejercicios
 
-## Cómo ejecutar el proyecto
-
-1. Clonar el repositorio.
-2. Abrir el proyecto en el editor o IDE correspondiente.
-3. Ejecutar el archivo principal.
-4. Ingresar o modificar los valores de los vectores según el escenario.
-5. Obtener como resultado el producto vectorial y la fuerza magnética.
 
 ## Aprendizaje obtenido
 
 Con este proyecto se refuerzan los conceptos de producto vectorial, vectores en tres dimensiones y fuerza magnética sobre un conductor. Además, permite relacionar la programación con la resolución de problemas de física aplicada.
 
-## Autor
-
-Proyecto académico desarrollado para practicar el cálculo del producto vectorial y su aplicación en la fuerza magnética sobre un conductor.
-
-## Estado del proyecto
-
-Proyecto en desarrollo con fines académicos.
